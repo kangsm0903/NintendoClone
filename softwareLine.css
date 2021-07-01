@@ -1,0 +1,59 @@
+.main_software {
+    height: 800px;
+    margin-top: 40px;
+  }
+  
+  .container3 {
+    display: grid;
+    column-gap: 32px;
+    row-gap: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    grid-template-columns: repeat(4, 276px);
+    grid-template-rows: 50px repeat(2, 307px);
+    margin-top: 50px;
+  }
+  
+  .bigTitle {
+    font-weight: bold;
+    font-size: 25px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+  
+  .smallTitle {
+    font-weight: normal;
+    font-size: 15px;
+  }
+  
+  .item3 {
+    font-weight: bold;
+    font-size: 17.5px;
+    overflow: hidden;
+  }
+  
+  .item3 img {
+    transition: 0.3s;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .item3:hover img {
+    transform: scale(1.03);
+    opacity: 0.7;
+  }
+  
+  .item3 .short {
+    font-weight: 20;
+    font-size: 13px;
+    color: red;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .info2 {
+    font-size: 13px;
+    font-weight: 10;
+  }
+  

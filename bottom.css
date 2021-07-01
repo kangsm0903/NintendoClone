@@ -1,0 +1,155 @@
+.main_bottom {
+    padding-top: 50px;
+    padding-bottom: 70px;
+    height: 324px;
+  }
+  
+  .container4 {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 373.36px);
+    grid-template-rows: repeat(2, 140px);
+    left: 50%;
+    transform: translateX(-50%);
+    row-gap: 44px;
+    column-gap: 36px;
+  }
+  
+  .item4 {
+    cursor: pointer;
+  }
+  
+  /* 여기부터 온라인 스토어 부분 */
+  
+  h2 {
+    position: static;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .online_store {
+    position: static;
+    height: 118px;
+    cursor: pointer;
+  }
+  
+  .container5 {
+    display: grid;
+    position: absolute;
+    grid-template-columns: repeat(3, 398px);
+    grid-template-rows: 118px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .item5 {
+    border: 1.25px solid #cdd0cb;
+    border-bottom: 1.25px solid black;
+    font-size: 17px;
+  }
+  
+  .bannerImg {
+    position: relative;
+    top: 35px;
+    left: 70px;
+  }
+  
+  .bannerExplain0 {
+    position: relative;
+    float: left;
+    top: 45px;
+    left: 120px;
+  }
+  
+  .bannerExplain1 {
+    position: relative;
+    float: left;
+    top: 34px;
+    left: 100px;
+  }
+  
+  .bannerImg img {
+    height: 40px;
+    width: 40px;
+    float: left;
+    left: 110px;
+  }
+  
+  /* 여기부터가 알림바부분 */
+  
+  .noticebar {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 21px 0px;
+    border-top: 1.25px solid #cdd0cb;
+    border-bottom: 1.25px solid #cdd0cb;
+  }
+  
+  .noticebar a {
+    position: relative;
+    padding-left: 150px;
+    width: 465px;
+    height: 19px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* 여기부터가 아랫쪽 배너부분 */
+  
+  .bottomBar {
+    background-color: #e60012;
+    height: 120px;
+  }
+  
+  .bottomImg {
+    position: relative;
+    width: 1250px;
+    margin: auto;
+    top: 30px;
+  }
+  
+  .bottomImg1 {
+    width: 200px;
+    height: 60px;
+  }
+  
+  .topBtn {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin-left: 83%;
+    bottom: 24px;
+    background-color: #e60012;
+    transition-duration: 0.45s;
+  }
+  
+  .topBtn:hover {
+    background-color: #c10707;
+    border-radius: 25%;
+  }
+  
+  .bottomSec {
+    width: 950px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .bottomSec img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5%;
+    margin-right: 2%;
+    cursor: pointer;
+  }
+  
+  .sns {
+    margin-right: 5%;
+  }
+  
+  .social {
+    margin-right: 5%;
+  }
+  

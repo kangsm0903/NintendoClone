@@ -1,0 +1,47 @@
+.bottomList {
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .bottomList ul li {
+    width: 300px;
+    list-style: none;
+    float: left;
+    text-align: center;
+  }
+  
+  .bottomList ul {
+    padding: 0;
+  }
+  
+  .bottitle {
+    position: relative;
+    font-weight: bold;
+    padding: 20px;
+    cursor: default;
+  }
+  
+  .bottitle::before {
+    position: absolute;
+    content: "";
+    background: #e60012;
+    width: 18px;
+    height: 3px;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .contents {
+    height: 50px;
+    color: #808080;
+  }
+  
+  .contents li {
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  

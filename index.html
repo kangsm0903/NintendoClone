@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nintendo</title>
+    <link rel="stylesheet" href="mainImg.css" />
+    <link rel="stylesheet" href="topLine.css" />
+    <link rel="stylesheet" href="newsLine.css" />
+    <link rel="stylesheet" href="softwareLine.css" />
+    <link rel="stylesheet" href="bottom.css" />
+    <link rel="stylesheet" href="bottomList.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <!-- jquery 사용가능 -->
+    <script>
+      $(document).ready(function () {
+        $(".item").mouseover(function () {
+          $(this).children(".subitem").stop().slideDown(400);
+        });
+        $(".item").mouseleave(function () {
+          $(this).children(".subitem").stop().slideUp(400);
+        });
+      });
+    </script>
+    <!-- https://rgy0409.tistory.com/2983  , https://rgy0409.tistory.com/197 참 -->
+  </head>
+
+  <body>
+    <!-- 상단바 -->
+    <header>
+      <div class="container">
+        <div class="item NintendoBanner">
+          <img src="/image/nintendoImage3.png" alt="TopImage" />
+        </div>
+
+        <div class="item">
+          Nintendo Switch
+          <div class="subitem">
+            <li>특징</li>
+            <li>닌텐도 Switch Lite</li>
+            <li>어떤 Switch?</li>
+            <li>라인업</li>
+            <li>기능ㆍ사양</li>
+            <li>주변기기</li>
+            <li>Nintendo Switch Online</li>
+            <li>Nintendo 지킴이 Switch™</li>
+            <li>닌텐도 e숍</li>
+          </div>
+        </div>
+
+        <div class="item">
+          Nintendo 3DS
+          <div class="subitem">
+            <li>닌텐도 3DS란?</li>
+            <li>New 닌텐도 3DS XL</li>
+            <li>New 닌텐도 2DS XL</li>
+            <li>기타 시리즈</li>
+            <li>닌텐도 e숍</li>
+          </div>
+        </div>
+
+        <div class="item">
+          Software
+          <div class="subitem">
+            <li>Nintendo Switch 소프트웨어</li>
+            <li>닌텐도 3DS 소프트웨어</li>
+            <li>발매 예정 소프트웨어</li>
+            <li>스마트폰용 앱</li>
+          </div>
+        </div>
+
+        <div class="item">
+          Service
+          <div class="subitem">
+            <li>Nintendo Switch 고객지원</li>
+            <li>Nintendo Switch Online 서포트</li>
+            <li>닌텐도 3DS 고객지원</li>
+            <li>고객지원 홈페이지</li>
+            <li>네트워크 장애 발생 상황</li>
+          </div>
+        </div>
+
+        <div class="item">
+          News
+          <div class="subitem">
+            <li>뉴스</li>
+            <li>보도자료</li>
+            <li>알림</li>
+            <li>이벤트</li>
+          </div>
+        </div>
+
+        <div class="item">
+          Download
+        </div>
+
+        <div class="item closer">
+          <img src="/image/돋보기.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!-- 메인 이미지 -->
+
+    <div class="slide_box">
+      <div class="slide_list">
+        <div class="slide_content slide01">
+          <img class="mainImage" src="image/1.png" alt="" />
+        </div>
+
+        <div class="slide_content slide02">
+          <img class="mainImage" src="image/2.png" alt="" />
+        </div>
+
+        <div class="slide_content slide03">
+          <img class="mainImage" src="image/3.png" alt="" />
+        </div>
+
+        <div class="slide_content slide04">
+          <img class="mainImage" src="image/4.png" alt="" />
+        </div>
+
+        <div class="slide_content slide05">
+          <img class="mainImage" src="image/5.png" alt="" />
+        </div>
+
+        <div class="slide_content slide06">
+          <img class="mainImage" src="image/6.png" alt="" />
+        </div>
+
+        <div class="slide_content slide07">
+          <img class="mainImage" src="image/7.png" alt="" />
+        </div>
+
+        <div class="slide_content slide08">
+          <img class="mainImage" src="image/8.png" alt="" />
+        </div>
+      </div>
+      <!-- // .slide_list -->
+    </div>
+    <!-- slide_btn_box -->
+
+    <div class="slide_btn_box">
+      <span class="slide_button_prev">
+        <img src="image/prev.png" alt="prev" />
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+      </span>
+      <span class="slide_count">1&nbsp</span>
+      <span class="slide_full">/ 8</span>
+      <span class="slide_button_next">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <img src="image/next.png" alt="next" />
+      </span>
+    </div>
+
+    <!-- News Line -->
+    <div class="newsLine">
+      <div class="container2">
+        <div class="notice">
+          새롭게 알려 드립니다.
+          <span class="notice2">
+            News & Update
+          </span>
+        </div>
+
+        <div class="item2">
+          <img src="/image/koreaOnlineChallenge.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          슈퍼 스매시브라더스 얼티밋 온라인 코리언 챌린지 랭킹 상위자 발표
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/marioKart.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          『마리오 카트 라이브: 홈 서킷』이 발매되었습니다.
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/다이시.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          Nintendo Switch 소프트웨어 『다이시 던전』 오늘 발매!
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/carto.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          Nintendo Switch 소프트웨어 『Carto』 절찬 발매 중!
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/2.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          제2회 특별한 세계 동시 두뇌 트레이닝 대회 개최 결정!
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/monster-hunter-stories-2-cover-image.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          『MONSTER HUNTER RISE』의 두번째 프로모션 영상 공개. 체험판도 2021년
+          1월 배포 결정!
+          <div class="info">
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/대난투.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          『슈퍼 스매시브라더스 얼티밋』 「세피로스」 12월에 참전 결정.
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+
+        <div class="item2">
+          <img src="/image/fitnessBoxing.png" alt="" />
+          <div class="news">
+            뉴스
+          </div>
+          「피트니스 복싱 2: 리듬 & 엑서사이즈」의 CM이 공개되었습니다.
+          <div class="info">
+            <br />
+            2021.01.15 <br />
+            Nintendo Switch
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_banner">
+      <img src="image/main_banner_eshop.gif" alt="" />
+    </div>
+
+    <div class="main_software">
+      <div class="container3">
+        <div class="bigTitle">
+          주요 소프트웨어
+          <span class="smallTitle">
+            Game Title
+          </span>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/mariosoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          마리오 카트 라이브: 홈 서킷
+          <div class="info2">
+            <br />
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/fitnesssoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          피트니스 복싱 2: 리듬 & 엑서사이즈
+          <div class="info2">
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/zeldasoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          젤다무쌍 대재앙의 시대
+          <div class="info2">
+            <br />
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/pikminsoftware.png" alt="" />
+          <div class="short">
+            <br />
+            Nintendo Switch
+          </div>
+          피크민 3 디럭스
+          <div class="info2">
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/brainsoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          매일매일 Nintendo Switch 두뇌 트레이닝
+          <div class="info2">
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/animalsoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          모여봐요 동물의 숲
+          <div class="info2">
+            <br />
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/pokemonsoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          포켓몬스터소드 · 실드
+          <div class="info2">
+            <br />
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+
+        <div class="item3">
+          <img src="softwareImage/ringfitsoftware.png" alt="" />
+          <div class="short">
+            Nintendo Switch
+          </div>
+          핑 피트 어드벤처
+          <div class="info2">
+            <br />
+            2020.12.17 <br />
+            한국닌텐도
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="main_bottom">
+      <div class="container4">
+        <div class="item4">
+          <img src="BBanner/banner_main_bottom01.png" alt="" />
+        </div>
+
+        <div class="item4">
+          <img src="BBanner/banner_main_bottom02.png" alt="" />
+        </div>
+
+        <div class="item4">
+          <img src="BBanner/banner_main_bottom03.png" alt="" />
+        </div>
+
+        <div class="item4">
+          <img src="BBanner/banner_main_bottom04.png" alt="" />
+        </div>
+
+        <div class="item4">
+          <img src="BBanner/banner_main_bottom05.png" alt="" />
+        </div>
+
+        <div class="item4">
+          <img src="BBanner/banner_main_bottom06.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h2>
+        쉽고 간편한 다운로드 버전으로도 즐길 수 있습니다.
+      </h2>
+    </div>
+
+    <div class="online_store">
+      <div class="container5">
+        <div class="item5">
+          <span class="bannerImg">
+            <img src="BBanner/cart.png" alt="" />
+          </span>
+          <span class="bannerExplain0">
+            다운로드 구입하기
+          </span>
+        </div>
+
+        <div class="item5">
+          <span class="bannerImg">
+            <img src="BBanner/card.png" alt="" />
+          </span>
+          <span class="bannerExplain1">
+            Nintendo Switch / 닌텐도 3DS <br />
+            닌텐도 선불카드 안내
+          </span>
+        </div>
+
+        <div class="item5">
+          <span class="bannerImg">
+            <img src="BBanner/console.png" alt="" />
+          </span>
+          <span class="bannerExplain1">
+            Nintendo Switch <br />
+            닌텐도 선불 번호 구입하기
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="noticebar">
+      알려 드립니다.
+      <a href="">⚫ 닌텐도 온라인 스토어 점검에 대하여</a>
+      <a href="">⚫ 어느새 교환 일기 리마스터 버전 배포 안내</a>
+    </div>
+
+    <div class="bottomBar">
+      <div class="bottomImg">
+        <img class="bottomImg1" src="BBanner/nintendo3.png" alt="" />
+      </div>
+      <img src="BBanner/up-arrow.png" alt="" class="topBtn" />
+    </div>
+
+    <div class="bottomSec">
+      <div class="logo">
+        <span class="sns">
+          <img src="BBanner/youtube.png" alt="" />
+          <img src="BBanner/kakaostory.png" alt="" />
+          <img src="BBanner/facebook.png" alt="" />
+        </span>
+        <span class="social">
+          <img src="BBanner/yellow2.png" alt="" />
+          <img src="BBanner/yellow.png" alt="" />
+        </span>
+        <span class="gameLogo">
+          <img src="BBanner/zelda.png" alt="" />
+          <img src="BBanner/mario.png" alt="" />
+          <img src="BBanner/pokemon.png" alt="" />
+          <img src="BBanner/animalCro.png" alt="" />
+          <img src="BBanner/kirby.png" alt="" />
+        </span>
+      </div>
+    </div>
+
+    <div class="bottomList">
+      <ul>
+        <li>
+          <div class="bottitle">한국닌텐도</div>
+          <ul class="contents">
+            <li>- 회사개요</li>
+            <li>- 찾아오시는 길</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="bottitle">본체 / amiibo</div>
+          <ul class="contents">
+            <li>- Nintendo Switch</li>
+            <li>- New 닌텐도 3DS XL</li>
+            <li>- New 닌텐도 2DS XL</li>
+            <li>- amiibo</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="bottitle">소프트웨어</div>
+          <ul class="contents">
+            <li>- Nintendo Switch 소프트웨어</li>
+            <li>- 닌텐도 3DS 소프트웨어</li>
+            <li>- 발매 예정 소프트웨어</li>
+            <li>- 스마트폰용 앱</li>
+          </ul>
+        </li>
+
+        <li>
+          <div class="bottitle">고객지원</div>
+          <ul class="contents">
+            <li>- Nitendo Switch</li>
+            <li>- 닌텐도 3DS</li>
+            <li>- 고객지원 홈페이지</li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <footer>
+      <div class="footerdiv">
+        <div>
+          이용약관 개인정보취급방침
+          <span>
+            고객지원 문의전화: 1670-9900 (평일 오전 9시30분~오후 5시 30분)
+          </span>
+        </div>
+        <div>
+          ⓒ 2006 Nintendo of Korea Co., Ltd. All Rights Reserved.
+          <span class="footerspan">
+            ※ 토/일/공휴일/회사 정기휴일 및 특별휴일 제외
+          </span>
+        </div>
+        <div>
+          2021년 3월 20일 오후 16시 43분 홈페이지 완성 - 사지방에서
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="mainImg.js"></script>
+    <script type="text/javascript" src="topLine.js"></script>
+    <script type="text/javascript" src="topBtn.js"></script>
+  </body>
+</html>
+
+<!-- 2021년 3월 20일 오후 16시 43분 닌텐도 홈페이지 거의 완성 전차포, 전술훈련 후
+주말 사지방에서 만들었음. 고생했음 -->

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: "Malgun Gothic";
+  }
+  
+  .slide_box {
+    width: 100%;
+    overflow-x: hidden;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .slide_content {
+    width: 10%; /* main이미지가 10개이기때문에 100% / 10개 = 10% 화면에 10%의 값으로 설정해주면 꽉찬 화면이 된다. */
+    float: left;
+    display: table;
+  }
+  
+  .mainImage {
+    width: 100%;
+  }
+  
+  .slide_btn_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .slide_button_prev {
+    cursor: default;
+    user-select: none;
+  }
+  
+  .slide_button_prev img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .slide_button_next {
+    cursor: default;
+    user-select: none;
+  }
+  
+  .slide_button_next img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .slide_count {
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+  }
+  
+  .slide_full {
+    font-size: 20px;
+    font-weight: bold;
+    user-select: none;
+  }
+  
