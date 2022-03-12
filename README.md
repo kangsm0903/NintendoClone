@@ -46,7 +46,7 @@
 
 * **Bottom Bar, Bottom List, Footer**
 
-  *Bottom Bar - Grid, topBtn: JavaScript로 구현
+  * Bottom Bar - Grid, topBtn: JavaScript로 구현
 
 
 ![씹하단바](https://user-images.githubusercontent.com/48651812/157862230-503be6da-bfa6-4d53-b8bf-7b789249467f.PNG)
